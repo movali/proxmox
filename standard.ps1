@@ -1,5 +1,5 @@
 apt update && apt upgrade
-apt install curl wget net-tools vim tree git locate bpytop htop screen unzip wireguard expect-dev -y
+apt install sudo curl wget net-tools vim tree git locate bpytop htop screen unzip expect-dev wireguard sshpass direnv python3-pip python3-venv -y
 ssh-keygen -t ed25519 -C "6582836+movali@users.noreply.github.com"
 git config --list \
 && git config --global user.name "bs18reps" \
